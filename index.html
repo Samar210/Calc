@@ -1,0 +1,65 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="container_field">
+                <div>
+                    <div class="circle"></div>
+                    <div class="text">
+                        <h1 class="h1">JavaScript</h1>
+                        <h4 class="h4">Calculator</h4>
+                    </div>
+                    <div class="wave-container">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1425 320">
+                            <path fill="#fc9393" fill-opacity="1"
+                                d="M0,32L120,69.3C240,107,480,181,720,197.3C960,213,1200,171,1320,149.3L1440,128L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="calculator">
+                    <div class="result"></div>
+                    <div>
+                        <button>7</button>
+                        <button>8</button>
+                        <button>9</button>
+                        <button class="key-operator" data-action="add">+</button>
+                    </div>
+                    <div>
+                        <button>4</button>
+                        <button>5</button>
+                        <button>6</button>
+                        <button class="key-operator" data-action="subtract">-</button>
+                    </div>
+                    <div>
+                        <button>1</button>
+                        <button>2</button>
+                        <button>3</button>
+                        <button data-action="multiply">*</button>
+                    </div>
+                    <div>
+                        <button>0</button>
+                        <button data-action="decimal">.</button>
+                        <button class="key-operator" data-action="divide">÷</button>
+                        <button class="key--equal" id="equal" data-action="calculate">=</button>
+                    </div>
+                    <div>
+                        <button class="clear">Clear</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
